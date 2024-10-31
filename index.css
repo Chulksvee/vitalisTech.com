@@ -1,0 +1,738 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+
+
+*{
+    font-family: 'Karla', sans-serif;  
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    background-color: dodgerblue;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    position: fixed; /* Make the navbar fixed */
+    width: 99%; /* Ensure it spans the full width */
+    top: 0; /* Position it at the top */
+    z-index: 1000; /* Keep it above other content */
+}
+
+/* here is the code for my menu-bar */
+.menu-bar{
+    float: right;
+    line-height: 65px;
+    display: none;
+}
+
+
+.nav ul li a{
+    color: white;
+    padding: 0 8px;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+
+/* .nav{
+    background-color: rgb(255, 69, 1);
+    flex-grow: 1;
+} */
+
+/* my logo here */
+    .logo img{
+        width:50px;
+        border-radius: 50%;
+    }
+ 
+/* here is my ul style  */
+    .nav ul li{
+        display: inline-block;
+    }
+
+/* here is my span style on nav ul li, where i hide my icon */
+.span1{
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+/* here is my New */
+    spam.n{
+        background-color: red;
+        color: white;
+        padding: 5px;
+        font-size: 15px;
+        border-radius: 4px;
+    }
+
+/* my login and Get started here */
+    .btn{
+        color: white;
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+/* login design here */
+    .btn-login{
+        border: 2px solid white;
+        padding: 10px 30px;
+        border-radius: 5px;
+       
+    }
+
+    .btn-login:hover{
+        background-color: white;
+        color: black;
+        border: 1px red solid;
+    }
+
+    .btn-signup{
+       background-color: dodgerblue;
+        padding: 12px 30px;
+        border-radius: 5px;
+    }
+
+    .btn-signup:hover{
+        background-color: white;
+        color: black;
+        border: 1px red solid;
+    }
+
+/* All the header menu style ends here */
+
+/* My middle page body starts here */
+
+    .middlepage{
+        background-color: rgb(109, 109, 109);
+        padding: 40px;
+        color: white;
+    }
+
+    .title h1{
+        margin-top: -10px;
+    }
+
+    .title{
+        max-width: 60%;
+        margin: auto;
+        text-align: center;
+        margin-top: 95px;
+    }
+
+    .title h1{
+        font-size: 55px;
+    }
+
+    .title p{
+        font-size: 20px;
+        color: yellow;
+        padding-bottom: 40px;
+    }
+
+
+    .botton{
+        text-align: center;
+    }
+
+    .btn-find{
+        background-color: dodgerblue;
+        padding: 20px 40px;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        /* border-radius: 10px; */
+    
+    }
+
+.img{
+    width: 30%;
+    margin: auto;
+}
+
+.img img{
+    width: 100%;
+    margin-top: 70px;
+}
+
+/* .service{
+    text-align: center;
+} */
+
+/* .service h1{ */
+    /* background-color: dodgerblue; */
+    /* padding: 20px 40px;
+    text-align: center;
+    font-weight: bolder;
+    max-width: 20%;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: space-around;
+    border: dashed darkturquoise;
+    color: whitesmoke;
+    border-radius: 10px;
+} */
+
+/* .service h1:hover{
+    background-color:rgb(2, 52, 82);
+    border: dotted grey;
+    color: white;
+    
+}
+
+.service-main{
+    display: flex;
+    padding: 30px 40px;
+    color: yellow;
+    font-size: 30px ; 
+} */
+
+.services.items{
+    display: flex;
+    width: 90%;
+    margin: auto;
+
+}
+
+
+
+.one{
+    padding: 4px 15px;
+    margin-bottom: 40px;
+}
+
+.one p{
+    padding-top: 10px;
+}
+
+.service h1{
+    text-align: center;
+    font-size: 35px;
+    padding: 50px;
+}
+
+.one >p:nth-child(2){
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+    
+/* @media screen and (min-width 1122px) {
+   .container{
+    
+   }
+} */
+
+
+/* HERE IS MY FONT SIZE */
+
+.icon{
+    font-size: 3opx;
+}
+
+
+/* <!-- use drop box starts here --> */
+
+.portfolio{
+    background-color: dodgerblue;
+    margin-top: -20px;
+
+}
+
+.portfolio-image img {
+    width: 99% ;
+    height: 250px;
+
+}
+
+.portfolio-flex{
+    display: flex;
+
+}
+
+.portfolio-section {
+    width: 90%;
+    padding: 0px 10px ;
+
+}
+
+.portfolio-title{
+    background-color: rgb(124, 122, 122);
+    width: 98%;
+    height: 250px;
+    margin-top: -25px;
+    height: 40vh;
+   
+}
+
+.portfolio h1{
+    text-align: center;
+    color: white;
+    padding: 40px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.portfolio-title h2{
+    padding: 40px 50px;
+    font-size: 25px;
+    color: yellow;
+}
+
+.portfolio-title p{
+    padding: 0px 25px;
+    font-size: 20px;
+    color: white;
+}
+
+.btn-portfolio{
+    margin: 30px;
+}
+
+.bttn{
+    background-color: dodgerblue;
+    color: white;
+    padding: 20px 30px;
+    /* border-radius: 10px; */
+    font-weight: bold;
+}
+
+/* This is where my footer started */
+
+.footer1-container{
+    height: 130vh;
+    background-color: black;
+    margin: -10px;
+    margin-top: -5px;
+    color: white;
+}
+
+.dt{
+    background-color: rgb(87, 87, 87);
+    display: flex;
+    height: 30vh;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.dt h1{
+    font-size: 60px;
+    color: white;
+    width: 800px;
+    margin-left: -5px;
+    padding-top: 10px;
+    
+}
+
+.footer-btn{
+    background-color: dodgerblue;
+    width: 200px;
+    margin: 70px 40px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    display: inline-block;
+    margin-right: 100px;
+
+}
+
+.footer2-con{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    width: 100%;
+    margin: auto;
+    padding-top: 45px;
+
+}
+
+.footer2-con ul li a{
+    color: white;
+    /* margin-left: -40px; */
+    line-height: 40px;
+    margin-left: -40px;
+    
+}
+
+
+.socials{
+    background-color: black;
+    width: 200px;
+    height: 90px;
+    margin-top: 70px;
+    border-bottom: white outset thin;
+    margin-left: 100px;
+}
+
+.fa-facebook{
+    font-size: 39px;
+    padding: 10px;
+}
+
+.fa-twitter{
+    font-size: 39px;
+    padding: 10px;
+}
+
+.fa-youtube{
+    font-size: 39px;
+    padding: 10px;
+}
+
+.english{
+    margin-left: 100px;
+    
+}
+
+
+
+.footer2-con ul li a:hover{
+    border-bottom: white outset thin;
+}
+
+/* here is for tablet design */
+
+@media screen and (max-width:1027px){
+    .container{
+        background-color: dodgerblue;
+    }
+    .nav ul li a {padding: 0px 10px;}
+    .btn{padding: 5px 5px;}
+    .login{margin-left: -30px;}
+
+}
+
+
+
+
+/* here is for mobile phone design */
+
+@media (min-width: 400px) and (max-width:909px) {
+    .container{flex-direction: column;
+    width: 96.7%;  }
+
+/* here is my span style on nav ul li, where i hide my icon */
+
+
+.footer1-container{
+    height: 290vh;
+    background-color: black;
+    margin: -10px;
+    margin-top: -5px;
+    color: white;
+  
+}
+
+.span1{
+    display: inline-block;
+    padding-right: 5px;
+} 
+
+.span1 i{
+    font-size: 18px;
+    color: yellow;
+}
+
+/* here is my menu-icon code */
+.menu-bar{
+    display: block;
+    position: absolute;
+    top: 33%;
+    color: white;
+    right:10%;
+    cursor: pointer;
+    
+}
+
+.menu-bar i{
+    font-size: 30px;
+}
+
+/* #check{
+    display: block;
+} */
+
+    .nav ul li{
+        display: block;
+        padding: 20px 0px;
+        margin-left: 40px;
+        font-weight: bold;
+
+    }
+
+   
+/* my logo design here  */
+
+.logo img{
+    position: absolute; 
+    top: 25px;
+    right: 84.3%;
+    width: 43px;
+  
+}
+
+
+.nav ul{
+    background-color: dodgerblue;
+    width: 80%;
+    position: absolute;
+    top: 90%;
+    height: 45vh;
+    right:50%;
+    left: -100%;
+    text-align: left;
+    border-radius: 20px;
+    transition: 1.5s;
+}
+
+
+
+/* this is our login desig */
+
+.login{
+    /* position: absolute;
+    right: 10%; */
+    margin-top: 40px 0px;
+    position: relative;
+    top: -15px;
+    left: 18px;
+}
+
+/* my botton here */
+.btn{
+    padding: 5px 8px;
+}
+
+
+/* here is my check */
+#check:checked ~ ul{
+   background-color: dodgerblue;
+    /* position: absolute; */
+    left: 8%;
+}
+
+/* here is my title mobile responsive */
+
+.title{
+    max-width: 100%;
+    margin-top: 90px;
+
+}
+
+.title h1{
+    font-size: 35px;
+}
+
+.title p{
+    font-size: 20px;
+    line-height: 1.4rem;
+
+}
+
+/* here is my img responsiveness  */
+
+.img{
+    width: 50%;
+}
+
+.service h1{
+    font-size: 25px;
+    padding: 10px 0px;
+}
+/* here is my service.item */
+
+.services.items{
+    /* flex-direction: column; */
+    display: block;
+    text-align: center;
+
+}
+
+.icon{
+    font-size: 60px;
+}
+
+/* here is our portfolio */
+
+.portfolio h1{
+    padding: 25px;
+    
+}
+
+.portfolio-flex{
+    display: block;
+    margin-left: 40px;
+}
+
+.portfolio-section {
+    width: 90%;
+    margin-bottom: 10px;
+
+}
+
+.portfolio-title{
+    text-align: center;
+    margin-bottom: 10px;
+    /* height: 45vh; */
+
+}
+
+.portfolio-title h2{
+    padding: 15px 0px;
+
+}
+.portfolio-title p{
+    margin-bottom: 60px;
+    
+
+}
+
+.btn-portfolio{
+    margin-bottom: -10px;
+}
+
+.portfolio{
+    margin-bottom: 20px;
+}
+
+
+.footer1-container h1{
+    position: relative;
+    right: 265px;
+    color: white;
+    font-size: large;
+    margin-top: 80px;
+    /* margin-left: -130px; */
+    text-align: center;
+    padding-top: 20px;
+}
+
+.dt{
+    background-color: rgb(87, 87, 87);
+    display: block;
+    height:20vh;
+    justify-content: space-around;
+    margin-top: -78px;
+}
+
+.footer-btn{
+    background-color: dodgerblue;
+    width: 200px;
+    margin: auto;
+    position: absolute; 
+    left: 8px;
+    /* margin-left: -168px; */
+    margin-top: 20px;
+    padding: 1px 1px;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    display: inline-block;
+}
+
+.footer2-con{
+    margin-top:-19.5px ;
+    background-color: black;
+    display: block;
+    justify-content: space-around;
+    color: white;
+    width: 100%;
+    padding-left: 30px;
+    margin-left: -10px;
+    padding-bottom: 30px;
+   
+    /* margin: auto; */
+}
+
+.portfolio-section {
+    width: 100%;
+    margin-left: -29px;
+
+}
+
+.portfolio h1{
+    font-weight: bolder!important;
+   
+}
+
+.btn-portfolio a{
+   background-color: yellow;
+   color: black!important;
+}
+
+.btn-portfolio a:hover{
+    background-color: dodgerblue!important;
+    color: white!important;
+}
+
+
+/* .title{
+    max-width: 100%;
+   
+}
+
+.title h1{
+    font-size: 35px;
+   
+}
+
+.title p{
+    font-size: 20px;
+    line-height: 1.4rem;
+   
+}
+
+/* here is my img */
+/* 
+.img{
+    width: 100%;
+   
+}
+
+.service h1{
+   
+    font-size: 25px;
+    padding: 10px 0px;
+}
+
+.services.items{
+   flex-direction: column;
+    text-align: center;
+}
+
+.icon{
+    font-size: 100px;
+}
+
+
+.portfolio h1{
+    padding:20px ;
+
+}
+
+.portfolio-flex{
+    display: block;
+    margin: auto;
+    
+
+}
+
+.portfolio-section {
+   width: 100%;
+
+} */
+
+
+
+
+
+
+
+
+} 
